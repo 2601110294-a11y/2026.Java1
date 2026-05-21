@@ -1,4 +1,4 @@
-package Rabbit;
+package ai0521.Rabbit;
 
 public class Rabbit {
     String shape;// 토끼의 모양
