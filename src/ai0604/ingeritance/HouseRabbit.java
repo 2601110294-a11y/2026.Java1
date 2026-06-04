@@ -12,14 +12,14 @@ public class HouseRabbit extends Rabbit{
     }
 
     // 메소드 재정의: super 클래스에 정의된 메소드를 sub 클래스에 다시 정의하는것
-
+    //울타리 x좌표가 0을 벗어나지 않고 10씩 감소하게
     @Override
     public void moveLeftTen() {
         if (xPos >= 10)
             super.moveLeftTen();
 
     }
-
+    //울타리 x 좌표가 500을 벗어나지 않고 10씩 증가하게
     @Override
     public void moveRightTen() {
         super.moveRightTen();
