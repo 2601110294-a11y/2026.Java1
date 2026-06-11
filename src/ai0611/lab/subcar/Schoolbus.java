@@ -6,8 +6,8 @@ public class Schoolbus extends Car {
     @Override
     public  void  upSpeed(int speed) {
         super.upSpeed(speed);
-        if(this.speed >= 200){
-            this.speed = 200;
+        if(this.speed >= 100){
+            this.speed = 100;
         }
 
     }

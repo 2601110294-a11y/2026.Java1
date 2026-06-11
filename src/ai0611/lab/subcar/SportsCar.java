@@ -6,8 +6,8 @@ public class SportsCar  extends ai0611.lab.car.Car {
     @Override
     public  void  upSpeed(int speed) {
         super.upSpeed(speed);
-        if(this.speed >= 500){
-            this.speed = 500;
+        if(this.speed >= 540){
+            this.speed = 540;
         }
     }
 
