@@ -2,7 +2,7 @@ package ai0611.interfacetest;
 
 public class Sportage implements Car{
     public static final String  carName = "스포티지";
-    private int speed ;
+    public int speed ;
     @Override
     public void start() {
         System.out.println(carName + "자동차의 시동을 건다");
